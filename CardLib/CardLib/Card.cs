@@ -8,6 +8,7 @@ using System.Text;
 // pas final in GitBash din folder-ul in care se afla .git-ul : git push -u origin main
 // !!ATENTIE!! : NU DA COMMIT LA TOT. ADAUGA MAI INTAI DOAR FISIERELE SCHIMBATE DE TINE FOLOSIND SEMNUL DE "+" DIN DREAPTA (STAGE)
 //              DOAR APOI APASA PE COMMIT & PUSH. (nu da stage la ceea ce se afla in \.vs\CardLib\...)
+// test 03 push din Visual Studio de pe laptop
 
 namespace CardLib
 {
