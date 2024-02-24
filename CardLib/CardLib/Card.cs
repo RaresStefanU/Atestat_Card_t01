@@ -3,7 +3,10 @@ using System.Collections.Generic;
 //using System.Linq;
 using System.Text;
 
-// test 01 pt schimbari git
+// test 01 pt schimbari git --Functioneaza din Git Gui atunci cand inchid VS
+// test 02 incercare din VisualStudio
+// pas final in GitBash din folder-ul in care se afla .git-ul : git push -u origin main
+//
 
 namespace CardLib
 {
