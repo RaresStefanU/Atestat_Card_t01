@@ -1,0 +1,11 @@
+D:\Hallow\HomeWr0ng\Informatica(情報学)\C#_Ch21Ex01\Game\CardLib\CardLib\bin\Debug\net8.0\CardLib.deps.json
+D:\Hallow\HomeWr0ng\Informatica(情報学)\C#_Ch21Ex01\Game\CardLib\CardLib\bin\Debug\net8.0\CardLib.dll
+D:\Hallow\HomeWr0ng\Informatica(情報学)\C#_Ch21Ex01\Game\CardLib\CardLib\bin\Debug\net8.0\CardLib.pdb
+D:\Hallow\HomeWr0ng\Informatica(情報学)\C#_Ch21Ex01\Game\CardLib\CardLib\obj\Debug\net8.0\CardLib.GeneratedMSBuildEditorConfig.editorconfig
+D:\Hallow\HomeWr0ng\Informatica(情報学)\C#_Ch21Ex01\Game\CardLib\CardLib\obj\Debug\net8.0\CardLib.AssemblyInfoInputs.cache
+D:\Hallow\HomeWr0ng\Informatica(情報学)\C#_Ch21Ex01\Game\CardLib\CardLib\obj\Debug\net8.0\CardLib.AssemblyInfo.cs
+D:\Hallow\HomeWr0ng\Informatica(情報学)\C#_Ch21Ex01\Game\CardLib\CardLib\obj\Debug\net8.0\CardLib.csproj.CoreCompileInputs.cache
+D:\Hallow\HomeWr0ng\Informatica(情報学)\C#_Ch21Ex01\Game\CardLib\CardLib\obj\Debug\net8.0\CardLib.dll
+D:\Hallow\HomeWr0ng\Informatica(情報学)\C#_Ch21Ex01\Game\CardLib\CardLib\obj\Debug\net8.0\refint\CardLib.dll
+D:\Hallow\HomeWr0ng\Informatica(情報学)\C#_Ch21Ex01\Game\CardLib\CardLib\obj\Debug\net8.0\CardLib.pdb
+D:\Hallow\HomeWr0ng\Informatica(情報学)\C#_Ch21Ex01\Game\CardLib\CardLib\obj\Debug\net8.0\ref\CardLib.dll
