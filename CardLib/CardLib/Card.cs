@@ -6,7 +6,8 @@ using System.Text;
 // test 01 pt schimbari git --Functioneaza din Git Gui atunci cand inchid VS
 // test 02 incercare din VisualStudio
 // pas final in GitBash din folder-ul in care se afla .git-ul : git push -u origin main
-//
+// !!ATENTIE!! : NU DA COMMIT LA TOT. ADAUGA MAI INTAI DOAR FISIERELE SCHIMBATE DE TINE FOLOSIND SEMNUL DE "+" DIN DREAPTA (STAGE)
+//              DOAR APOI APASA PE COMMIT & PUSH.
 
 namespace CardLib
 {
