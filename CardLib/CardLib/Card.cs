@@ -3,6 +3,8 @@ using System.Collections.Generic;
 //using System.Linq;
 using System.Text;
 
+// test 01 pt schimbari git
+
 namespace CardLib
 {
     public class Card : ICloneable
