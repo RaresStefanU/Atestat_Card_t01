@@ -3,13 +3,21 @@ using System.Collections.Generic;
 //using System.Linq;
 using System.Text;
 
+#region comentarii vechi
 // test 01 pt schimbari git --Functioneaza din Git Gui atunci cand inchid VS
 // test 02 incercare din VisualStudio
 // pas final in GitBash din folder-ul in care se afla .git-ul : git push -u origin main
 // !!ATENTIE!! : NU DA COMMIT LA TOT. ADAUGA MAI INTAI DOAR FISIERELE SCHIMBATE DE TINE FOLOSIND SEMNUL DE "+" DIN DREAPTA (STAGE)
 //              DOAR APOI APASA PE COMMIT & PUSH. (nu da stage la ceea ce se afla in \.vs\CardLib\...)
 // test 03 push din Visual Studio de pe laptop
-// problemele legate de git au fost rezolvate prin adaugarea unui ".gitignore"
+#endregion
+/*
+Problemele legate de git au fost rezolvate prin adaugarea unui ".gitignore".
+ATENTIE: Inainte de a rula porgramul asigura-te ca ai indeplinit urmatorii pasi:
+        1. Deschide "Solution Explorer"
+        2. Da click-dreapta pe "CardClient"
+        3. Da click-stanga pe "Set as Startup Project"
+ */
 
 namespace CardLib
 {
