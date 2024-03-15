@@ -72,8 +72,43 @@ namespace CardClient
 
             #region Testing05-???
             // Display introduction.
-            Console.WriteLine("BenjaminCards: un joc");
-
+            Console.WriteLine("BenjaminCards: un joc cu carti");
+            Console.WriteLine("Pentru a castiga trebuie sa ai minimum 7 carti de acelasi fel in \"mana\"");
+            Console.WriteLine(); // au folosit treba asta in loc de \n !???
+            // "Prompt number of playeers"
+            bool inputOK = false;
+            int choice = -1;
+            do 
+            {
+                Console.WriteLine("Cati jucatori (2-7)?");
+                string input = Console.ReadLine();
+                try
+                {
+                    //incearca sa trnsforme input-ul intr-un numar valid de jucatori
+                    choice = Convert.ToInt32(input);
+                    if ((choice >= 2) && (choice <= 7))
+                        inputOK = true;
+                }
+                catch
+                {
+                    //ignora conversiile esuate, "just continue prompting"
+                }
+            } while (inputOK == false);
+            //initializeaza vectorul de obiecte Player
+            Player[] players = new Player[choice];
+            //face rost de numele jucatorilor
+            for (int p = 0; p < players.Length; p++) 
+            {
+                Console.WriteLine($"Player {p + 1}, alege-ti numele:");
+                string playerName = Console.ReadLine();
+                players[p] = new Player(playerName);
+            }
+            // Start joc
+            Game newGame = new Game();
+            newGame.SetPlayers(players);
+            int whoWon = newGame.PlayGame();
+            //Afiseaza jucatorul castiator.
+            Console.WriteLine($"{players[whoWon].Name} a castigat jocul!");
             #endregion
 
             Console.ReadKey();
