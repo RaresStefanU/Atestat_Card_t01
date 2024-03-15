@@ -58,7 +58,7 @@ namespace CardClient
             #endregion
 
             #region Testing04-Exceptions
-            Deck deck1 = new Deck();
+            /* Deck deck1 = new Deck();
             try
             {
                 Card myCard = deck1.GetCard(60);
@@ -67,7 +67,13 @@ namespace CardClient
             {
                 Console.WriteLine(e.Message);
                 Console.WriteLine(e.DeckContents[0]);
-            }
+            } */
+            #endregion
+
+            #region Testing05-???
+            // Display introduction.
+            Console.WriteLine("BenjaminCards: un joc");
+
             #endregion
 
             Console.ReadKey();
