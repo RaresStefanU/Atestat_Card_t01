@@ -122,7 +122,7 @@ namespace CardClient
                     } while (inputOK == false);
                     // Afiseaza noua mana de carti numerotata.
                     Console.WriteLine("Noua mana de carti:");
-                    for (int i = 0; i < players[currentCard].PlayHand.Count; i++)
+                    for (int i = 0; i < players[currentPlayer].PlayHand.Count; i++)
                     {
                         Console.WriteLine($"{i + 1}: {players[currentPlayer].PlayHand[i]}");
                     }

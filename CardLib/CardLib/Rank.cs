@@ -8,7 +8,7 @@ namespace CardLib
     public enum Rank
     {
         Ace = 1,
-        Deuce,
+        Duece,
         Three,
         Four,
         Five,

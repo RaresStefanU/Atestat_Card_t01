@@ -45,10 +45,12 @@ namespace CardLib
             rank = newRank;
         }
 
+        //public object Clone() => MemberwiseClone();//chestie care ori am ratat-o ori nu era || revizuieste?
         public override string ToString() => "The " + rank + " of " + suit + "s";
 
         //bunch of nonsense v1
-        public static bool operator ==(Card card1, Card card2) => (card1?.suit == card2?.suit) && (card1?.rank == card2?.rank);
+        public static bool operator ==(Card card1, Card card2) => (card1?.suit == card2?.suit) && (card1?.rank == card2?.rank); //varianta care merge?
+        //public static bool operator ==(Card card1, Card card2) => (card1.suit == card2.suit) && (card1.rank == card2.drank); //varianta lor
         public static bool operator !=(Card card1, Card card2) => !(card1 == card2);
         public override bool Equals(object card) => this == (Card)card;
         public override int GetHashCode() => 13 * (int)suit + (int)rank;
@@ -71,6 +73,7 @@ namespace CardLib
                             return false;
                         else
                             return (card1.rank > card2?.rank);
+                        // return (card1.rank > card2.rank); //varianta lor
                     }
                 }
                 else
